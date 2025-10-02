@@ -1,6 +1,8 @@
 # EZ-Flash Models Overview
 
 This section documents every major EZ-Flash flashcart model from 2001 to present, including their features, compatibility, and quirks. Use this to compare models or look up specifics for the one you own.
+If you notice any mistakes that need correcting please put it in [EZ-Flash Guide Issues](https://github.com/ChimeraGaming/EZ-Flash_Guide/issues)
+
 
 ---
 
