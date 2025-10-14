@@ -7,6 +7,7 @@
 [![Features: Cheats, Saves, Themes](https://img.shields.io/badge/features-cheats%2C%20saves%2C%20themes-orange)](./Docs)
 
 Future Guide: https://chimeragaming.github.io/ez-flash/
+> Probably gonna scrap the current Future Guide and start over, as I've learned a much better and cleaner way to code it.
 ---
 
 ## Open Source & Community-Driven
