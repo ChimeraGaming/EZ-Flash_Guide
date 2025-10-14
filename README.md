@@ -6,7 +6,7 @@
 [![Models: 11](https://img.shields.io/badge/models-11-blueviolet)](./Models)
 [![Features: Cheats, Saves, Themes](https://img.shields.io/badge/features-cheats%2C%20saves%2C%20themes-orange)](./Docs)
 
-
+Future Guide: https://chimeragaming.github.io/ez-flash/
 ---
 
 ## Open Source & Community-Driven
