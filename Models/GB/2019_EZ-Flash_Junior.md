@@ -45,7 +45,8 @@ The EZ-Flash Junior is a flash cartridge designed for Game Boy and Game Boy Colo
 - No save states  
 - No native support for homebrew with custom save types  
 - RTC doesn’t work until it’s set in the settings screen  
-- Save loss if user powers off mid-game without returning to menu  
+- Save loss if user powers off mid-game without returning to menu
+- Doesn't sort files alphabetically (See Troubleshooting bellow).
 
 ---
 
@@ -62,3 +63,14 @@ The EZ-Flash Junior is a flash cartridge designed for Game Boy and Game Boy Colo
 - Uses a CR2025 battery (user-replaceable)  
 - Firmware updates may reset time settings  
 - Some original Game Boy games may boot to a black screen unless reset with START+SELECT+A+B  
+
+## Troubleshooting
+
+### EZ-Flash Junior doesn't sort files alphabetically
+
+To sort files alphabetically, you can use the free and open-source project [FATSort (Sourceforge)](https://sourceforge.net/projects/fatsort/). 
+
+```bash
+# The device must be unmounted (Linux/Unix)
+fatsort /dev/sdXY
+```
