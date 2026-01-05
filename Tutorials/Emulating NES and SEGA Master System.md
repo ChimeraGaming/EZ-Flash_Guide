@@ -62,5 +62,3 @@ These guides cover:
 - ✅ NES and SMS are **software emulated**
 - ❌ Cannot add raw `.nes` or `.sms` files directly on the GBA
 - ✅ After setup, everything runs directly from the EZ-Flash
-
-If you want, I can also provide **recommended Poc**
