@@ -1,6 +1,6 @@
 # Homebrew on EZ-Flash
 
-EZ-Flash cartridges such as the Omega and Omega DE fully support `.gba` homebrew files — including indie games, emulators, and utilities. This page explains how to use them.
+EZ-Flash cartridges such as the Omega and Omega DE fully support `.gba` homebrew files - including indie games, emulators, and utilities. This page explains how to use them.
 
 ---
 
@@ -34,7 +34,7 @@ Homebrew refers to unofficial software created by independent developers. For th
 4. **Saving (if supported)**
    - Most homebrew doesn't require saving
    - If it does, EZ-Flash will usually auto-create a `.sav` file
-   - For apps that don’t support SRAM saving natively, use [GBATA](https://www.romhacking.net/utilities/601/) to apply an SRAM patch
+   - For apps that don't support SRAM saving natively, use [GBATA](https://www.romhacking.net/utilities/601/) to apply an SRAM patch
 
 ---
 
@@ -42,8 +42,8 @@ Homebrew refers to unofficial software created by independent developers. For th
 
 - Use **clean `.gba` builds** directly from the developer or trusted sites  
 - Do not use IPS/UPS patches unless instructed to  
-- Most homebrew does not require a specific save type, but if something doesn’t save, try patching it  
-- Avoid homebrew meant for other platforms like Atari ST or OpenDingux — they will not run on GBA hardware  
+- Most homebrew does not require a specific save type, but if something doesn't save, try patching it  
+- Avoid homebrew meant for other platforms like Atari ST or OpenDingux - they will not run on GBA hardware  
 
 ---
 
@@ -59,8 +59,8 @@ Homebrew refers to unofficial software created by independent developers. For th
 
 ## Looking for More?
 
-- [Romhacking.net – Homebrew Section](https://www.romhacking.net/homebrew/)  
-- [GameBrew – GBA Homebrew List](https://www.gamebrew.org/wiki/Category:GBA_homebrew)
+- [Romhacking.net - Homebrew Section](https://www.romhacking.net/homebrew/)  
+- [GameBrew - GBA Homebrew List](https://www.gamebrew.org/wiki/Category:GBA_homebrew)
 
 ---
 

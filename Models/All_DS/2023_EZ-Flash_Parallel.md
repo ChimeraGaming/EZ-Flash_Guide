@@ -1,7 +1,7 @@
 ---
 ---
 ---
-❗❗❗❗ NOT RECOMMENDED ❗❗❗❗
+ NOT RECOMMENDED 
 
 USE R4 IF YOU DON'T ALREADY OWN THIS (or plan to switch)
 
@@ -11,7 +11,7 @@ USE R4 IF YOU DON'T ALREADY OWN THIS (or plan to switch)
 
 # EZ-Flash Parallel (2023)
 
-The **EZ-Flash Parallel** is a modern Slot-1 flashcart designed primarily for **Nintendo DS, DSi, and 3DS** systems. Officially released around 2023, it offers improved compatibility, homebrew support, and a sleek FPGA-based architecture — making it a spiritual successor to previous DS-focused models like the EZ-Flash V and 3-in-1.
+The **EZ-Flash Parallel** is a modern Slot-1 flashcart designed primarily for **Nintendo DS, DSi, and 3DS** systems. Officially released around 2023, it offers improved compatibility, homebrew support, and a sleek FPGA-based architecture - making it a spiritual successor to previous DS-focused models like the EZ-Flash V and 3-in-1.
 
 ---
 

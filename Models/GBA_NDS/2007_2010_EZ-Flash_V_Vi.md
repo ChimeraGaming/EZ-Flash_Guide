@@ -1,4 +1,4 @@
-# EZ-Flash V & Vi (2007–2010)
+# EZ-Flash V & Vi (2007-2010)
 
 > Slot-1 flashcarts designed for the Nintendo DS and DSi. While not compatible with GBA games directly, they supported DS homebrew and commercial games, and could link with the EZ-Flash 3-in-1 for GBA playback.
 
@@ -23,7 +23,7 @@
 
 ---
 
-## EZ-Flash Vi (2009–2010)
+## EZ-Flash Vi (2009-2010)
 
 ### Key Features
 
@@ -51,7 +51,7 @@
 ## Notes
 
 - Best used in combination with EZ-Flash 3-in-1 for full DS + GBA functionality  
-- Vi model was a response to Nintendo’s DSi firmware blocks — many clones/fakes exist  
+- Vi model was a response to Nintendo's DSi firmware blocks - many clones/fakes exist  
 
 ---
 
@@ -59,10 +59,10 @@
 
 ```plaintext
 /
-├── nds/         # DS ROMs
-├── moonshell/   # Media player files (optional)
-├── SYSTEM/      # Kernel files
-└── cheats/      # Optional cheat databases
+|-- nds/         # DS ROMs
+|-- moonshell/   # Media player files (optional)
+|-- SYSTEM/      # Kernel files
+\-- cheats/      # Optional cheat databases
 ```
 
 ---

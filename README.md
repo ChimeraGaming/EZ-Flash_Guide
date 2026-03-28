@@ -12,20 +12,20 @@ Future Guide: https://chimeragaming.github.io/ez-flash/
 
 ## Open Source & Community-Driven
 
-This guide is open source — feel free to use, modify, or share it however you'd like.
+This guide is open source - feel free to use, modify, or share it however you'd like.
 
 > Credit Disclaimer:  
 > I take zero credit for creating or discovering any of this information.  
-> I'm simply consolidating and cleaning up what’s already out there — scattered across forums, Reddit, PDFs, and YouTube — into one clean, centralized place.
+> I'm simply consolidating and cleaning up what's already out there - scattered across forums, Reddit, PDFs, and YouTube - into one clean, centralized place.
 
 ---
 
 ## Purpose
 
 This project is meant to fix and enhance the often lacking or outdated EZ-Flash documentation.  
-It includes everything from setup, themes, save handling, cheats, directory structure, and more — tailored for every model, from Advance to Omega DE.
+It includes everything from setup, themes, save handling, cheats, directory structure, and more - tailored for every model, from Advance to Omega DE.
 
-If you find incorrect, outdated, or missing information, please open an issue — I’ll update the guide as soon as possible.
+If you find incorrect, outdated, or missing information, please open an issue - I'll update the guide as soon as possible.
 
 ---
 
@@ -55,17 +55,17 @@ Each flashcart model now has its own dedicated page for specs, features, and cav
 View all: [`/Models`](./Models)
 
 ### Sorted by Release Year:
-- [2001 – EZ-Flash Advance](./Models/GBA/2001_EZ-Flash_Advance.md)  
-- [2005 – EZ-Flash III](./Models/GBA/2005_EZ-Flash_III.md)  
-- [2005 – EZ-Flash IV](./Models/GBA/2005_EZ-Flash_IV.md)  
-- [2007 – EZ-Flash 3-in-1](./Models/GBA_NDS/2007_EZ-Flash_3in1.md)  
-- [2007–2010 – EZ-Flash V & Vi](./Models/GBA_NDS/2007_2010_EZ-Flash_V_Vi.md)  
-- [2017 – EZ-Flash Reform](./Models/GBA/2017_EZ-Flash_Reform.md)  
-- [2018 – EZ-Flash Omega](./Models/GBA/2018_EZ-Flash_Omega.md)  
-- [2019 – EZ-Flash Junior](./Models/GB/2019_EZ-Flash_Junior.md)  
-- [2021 – EZ-Flash Omega Definitive Edition](./Models/GBA/2021_EZ-Flash_Omega_Definitive_Edition.md)  
-- [2023 – EZ-Flash Parallel](./Models/All_DS/2023_EZ-Flash_Parallel.md)  
-- [2025 – EZ-Flash Air](./Models/GBA/2025_EZ-Flash_Air.md)
+- [2001 - EZ-Flash Advance](./Models/GBA/2001_EZ-Flash_Advance.md)  
+- [2005 - EZ-Flash III](./Models/GBA/2005_EZ-Flash_III.md)  
+- [2005 - EZ-Flash IV](./Models/GBA/2005_EZ-Flash_IV.md)  
+- [2007 - EZ-Flash 3-in-1](./Models/GBA_NDS/2007_EZ-Flash_3in1.md)  
+- [2007-2010 - EZ-Flash V & Vi](./Models/GBA_NDS/2007_2010_EZ-Flash_V_Vi.md)  
+- [2017 - EZ-Flash Reform](./Models/GBA/2017_EZ-Flash_Reform.md)  
+- [2018 - EZ-Flash Omega](./Models/GBA/2018_EZ-Flash_Omega.md)  
+- [2019 - EZ-Flash Junior](./Models/GB/2019_EZ-Flash_Junior.md)  
+- [2021 - EZ-Flash Omega Definitive Edition](./Models/GBA/2021_EZ-Flash_Omega_Definitive_Edition.md)  
+- [2023 - EZ-Flash Parallel](./Models/All_DS/2023_EZ-Flash_Parallel.md)  
+- [2025 - EZ-Flash Air](./Models/GBA/2025_EZ-Flash_Air.md)
 
 ---
 
@@ -81,4 +81,4 @@ View all: [`/Models`](./Models)
 
 ## Must-Read: Save Behavior
 
-Saving isn’t automatic on many models — check out the [Save Guide](./Docs/Save.md) to avoid corruption and understand how FRAM, SRAM, and 128K Flash saves work.
+Saving isn't automatic on many models - check out the [Save Guide](./Docs/Save.md) to avoid corruption and understand how FRAM, SRAM, and 128K Flash saves work.

@@ -1,15 +1,15 @@
 # Creating Themes for EZ-Flash Omega DE
 
-The EZ-Flash Omega Definitive Edition supports full UI customization using `.skn` themes. This guide — based directly on Sterophonick’s official “How to Skin Simple” tutorial — walks you through designing, packaging, and applying your own theme.
+The EZ-Flash Omega Definitive Edition supports full UI customization using `.skn` themes. This guide - based directly on Sterophonick's official "How to Skin Simple" tutorial - walks you through designing, packaging, and applying your own theme.
 
 ---
 
-## What You’ll Need
+## What You'll Need
 
 - An EZ-Flash Omega Definitive Edition (themes are not supported on the original Omega)
 - A pixel-art-friendly image editor (GIMP, Photoshop, Paint.NET, etc.)
 - Python 3 (to use the provided theme compiler)
-- An SD card with your Omega DE’s `EZFLASH/` folder
+- An SD card with your Omega DE's `EZFLASH/` folder
 
 ---
 
@@ -17,13 +17,13 @@ The EZ-Flash Omega Definitive Edition supports full UI customization using `.skn
 
 ### Skinning Guide
 
-- How to Skin Simple – by Sterophonick  
+- How to Skin Simple - by Sterophonick  
   https://atapi.space/site/projects/atlantis/howtoskinsimple/  
   The definitive resource for creating `.skn` themes. Includes structure, color formatting, and Python tools.
 
-### Bonus – Maxmod (Not for themes)
+### Bonus - Maxmod (Not for themes)
 
-- Maxmod – A sound engine for GBA/DS homebrew  
+- Maxmod - A sound engine for GBA/DS homebrew  
   https://maxmod.org/  
   Maxmod is not used for theming, but is a great tool if you're building custom GBA homebrew. Be aware of its RAM demands on real hardware.
 
@@ -35,7 +35,7 @@ A `.skn` theme is a compiled archive containing multiple indexed PNG files:
 
 | File                | Purpose                             |
 |---------------------|-------------------------------------|
-| `mainmenu.png`      | Main menu background (256×192px)    |
+| `mainmenu.png`      | Main menu background (256x192px)    |
 | `font.png`          | Bitmap font sheet (optional)        |
 | `rom_icon.png`      | ROM file icon                       |
 | `folder_icon.png`   | Folder icon                         |
@@ -84,8 +84,8 @@ Place the `.skn` file into:
 
 ```
 EZFLASH/
-├── THEMES/
-│   └── your-theme.skn
+|-- THEMES/
+|   \-- your-theme.skn
 ```
 
 You can have multiple `.skn` files in this folder.
@@ -99,7 +99,7 @@ You can have multiple `.skn` files in this folder.
 - Navigate to Themes and pick your `.skn` file  
 
 The kernel will remember your selected theme, and it will stay active across reboots.  
-You don’t need to reapply it every time.
+You don't need to reapply it every time.
 
 Want a theme to load by default on a clean setup? Rename it to `default.skn`.
 
@@ -108,7 +108,7 @@ Want a theme to load by default on a clean setup? Rename it to `default.skn`.
 ## Tips for Better Themes
 
 - Use high contrast for readability on small screens  
-- Stick to a consistent pixel grid — it helps with clarity  
+- Stick to a consistent pixel grid - it helps with clarity  
 - Avoid overly busy or dark backgrounds  
 - Test early on hardware to catch issues with color or spacing
 

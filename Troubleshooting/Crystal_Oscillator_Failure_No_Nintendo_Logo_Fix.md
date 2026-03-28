@@ -1,6 +1,6 @@
-## EZ-Flash Omega — Crystal Oscillator Replacement Guide
+## EZ-Flash Omega - Crystal Oscillator Replacement Guide
 
-Related discussion: [Issue #3 – Crystal Oscillator Failure (No Nintendo Logo)](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/issues/3)
+Related discussion: [Issue #3 - Crystal Oscillator Failure (No Nintendo Logo)](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/issues/3)
 
 If your EZ-Flash Omega boots **without showing the Nintendo logo**, and you've already:
 
@@ -31,7 +31,7 @@ The oscillator is a small silver 4-pin SMD part, labeled `24.545`, located just 
 | Frequency  | 24.545 MHz                    |
 | Voltage    | 3.3V                          |
 | Output     | CMOS / HCMOS                  |
-| Package    | 3225 (3.2 mm × 2.5 mm)        |
+| Package    | 3225 (3.2 mm x 2.5 mm)        |
 | Pads       | 4-pad SMD                     |
 
 ---
@@ -68,4 +68,4 @@ Make sure your part exactly matches the specifications above.
 ### Notes
 
 - Only replace this part if you're confident with SMD soldering or have access to proper tools.
-- Ensure the frequency is **exactly 24.545 MHz** — other values will cause the cart to fail detection.
+- Ensure the frequency is **exactly 24.545 MHz** - other values will cause the cart to fail detection.

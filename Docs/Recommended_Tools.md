@@ -43,7 +43,7 @@ This page lists trusted tools to help with patching, verifying, editing, and man
 | [EZ Omega Thumbmaker](https://gbatemp.net/attachments/ezo-thumbmaker_wip-zip.134931/) | Create `.BMP` thumbnails for GBA games |
 | [RHEA](https://www.romhacking.net/utilities/542/) | Theme preview renderer and .skn utility |
 | [EZOmegaTheme-Simple](https://atapi.space/site/projects/atlantis/howtoskinsimple/) | Official guide to simple `.skn` theme creation |
-| [Atlantis Blog](https://atapi.space/site/blog/) | Sterophonick’s dev logs and tips on DE kernel development |
+| [Atlantis Blog](https://atapi.space/site/blog/) | Sterophonick's dev logs and tips on DE kernel development |
 | [Paint.NET](https://www.getpaint.net/) / [GIMP](https://www.gimp.org/) | Free BMP image editors for theme assets |
 | [Maxmod](https://maxmod.org/) | GBA audio engine for custom themes with sound (space-limited)
 

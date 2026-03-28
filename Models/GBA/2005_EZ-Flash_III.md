@@ -17,7 +17,7 @@ The **EZ-Flash III** was part of the early wave of GBA flashcarts and was a majo
 ## Limitations
 - No microSD support (internal flash only)  
 - Requires Windows software (EZManager) to transfer games  
-- Limited save type compatibility — issues with larger save files (128KB)  
+- Limited save type compatibility - issues with larger save files (128KB)  
 - Can be tricky to operate on modern systems due to outdated software  
 
 ---
@@ -25,7 +25,7 @@ The **EZ-Flash III** was part of the early wave of GBA flashcarts and was a majo
 ## Save System
 - Uses battery-backed **SRAM** for save storage  
 - Save data must be manually written to NAND using EZManager  
-- Requires care when removing the cartridge — save corruption possible if not synced  
+- Requires care when removing the cartridge - save corruption possible if not synced  
 
 ---
 

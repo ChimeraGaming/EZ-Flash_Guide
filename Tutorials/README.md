@@ -15,7 +15,7 @@ Whether you're a beginner or a flashcart veteran, these tutorials are here to he
   A full walkthrough for designing and applying custom `.skn` themes for the Omega DE. Includes tools, templates, and tips.
 
 - [Editing Save Files.md](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Tutorials/Editing_Save_Files.md)  
-  Safely extract, edit, and restore `.sav` files with tools like PKHeX, A‑Save, and more.  
+  Safely extract, edit, and restore `.sav` files with tools like PKHeX, A-Save, and more.  
   Includes backup instructions, PKMDS error fixes, save workflow, and file conversion tips.
 
 > More tutorials coming soon...

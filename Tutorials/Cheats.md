@@ -6,16 +6,16 @@ Looking for a more complete or updated cheat library?
 
 Check out these community efforts to **convert the Libretro cheat database for EZ-Flash**:
 
-- [GBAtemp Thread – Convert the Libretro Database Cheats to EZ-Flash](https://gbatemp.net/threads/convert-the-libretro-database-cheats-to-ezflash.652742/)  
+- [GBAtemp Thread - Convert the Libretro Database Cheats to EZ-Flash](https://gbatemp.net/threads/convert-the-libretro-database-cheats-to-ezflash.652742/)  
   The `.rar` file found here includes more cheats than the official EZ-Flash database.
 
-- [Jer-IRL GitHub – 1-Line Python Script to Convert Libretro Database to EZ-Flash Format](https://github.com/jer-irl/update_ezflash_cheats)  
+- [Jer-IRL GitHub - 1-Line Python Script to Convert Libretro Database to EZ-Flash Format](https://github.com/jer-irl/update_ezflash_cheats)  
   - Easily update all your cheats with one command  
   - Requires:
     - `Nintendo - Game Boy Advance (20250602-123637).dat`
     - [Libretro-database-master](https://github.com/libretro/libretro-database) (for the latest cheats)
 
-This project offers a much more extensive `.cht` library than the default one included with most firmware setups. It’s a great option if you're looking for codes for obscure titles or new ROM hacks.
+This project offers a much more extensive `.cht` library than the default one included with most firmware setups. It's a great option if you're looking for codes for obscure titles or new ROM hacks.
 
 Be sure to follow instructions in the thread for:
 

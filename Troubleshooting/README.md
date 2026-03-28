@@ -1,10 +1,10 @@
 # EZ-Flash Omega (DE) Troubleshooting Guide
 
-This section covers common issues with the EZ-Flash Omega Definitive Edition and how to resolve them. Whether you’re facing ROM detection problems, save corruption, boot loops, or cheat malfunctions, this guide can help.
+This section covers common issues with the EZ-Flash Omega Definitive Edition and how to resolve them. Whether you're facing ROM detection problems, save corruption, boot loops, or cheat malfunctions, this guide can help.
 
 ---
 
-## ROM Doesn’t Show Up
+## ROM Doesn't Show Up
 
 **Causes:**
 - Unsupported file type (only `.gba`, `.gb`, `.gbc`, `.nes` supported)
@@ -34,10 +34,10 @@ This section covers common issues with the EZ-Flash Omega Definitive Edition and
 
 ---
 
-## Pokémon “Save is Corrupted” Message
+## Pokémon "Save is Corrupted" Message
 
 **Why it happens:**  
-Pokémon titles use 128KB Flash saves with dual slots. If one slot isn’t updated, the game flags the save as corrupt.
+Pokémon titles use 128KB Flash saves with dual slots. If one slot isn't updated, the game flags the save as corrupt.
 
 **Solutions:**
 - Save twice in-game
@@ -79,7 +79,7 @@ Pokémon titles use 128KB Flash saves with dual slots. If one slot isn’t updat
 
 ---
 
-## Cart Freezes or Game Won’t Start
+## Cart Freezes or Game Won't Start
 
 **Causes:**
 - Corrupt theme
@@ -106,7 +106,7 @@ Pokémon titles use 128KB Flash saves with dual slots. If one slot isn’t updat
 
 ---
 
-## Cheat Menu Doesn’t Show Up
+## Cheat Menu Doesn't Show Up
 
 **Causes:**
 - Cheat support disabled

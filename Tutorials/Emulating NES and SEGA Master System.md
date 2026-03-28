@@ -22,8 +22,8 @@ Once set up, you **do not need the computer again** unless you want to add or ch
 
 ## What Emulators Are Used
 
-- **NES** → PocketNES  
-- **SEGA Master System / Game Gear** → SMSAdvance or SMSAdvance X  
+- **NES**: PocketNES  
+- **SEGA Master System / Game Gear**: SMSAdvance or SMSAdvance X  
 
 These emulators run *inside* the GBA as normal `.gba` games.
 
@@ -58,7 +58,7 @@ These guides cover:
 
 ## TL;DR
 
-- ✅ You **do need a computer** (one-time setup)
-- ✅ NES and SMS are **software emulated**
-- ❌ Cannot add raw `.nes` or `.sms` files directly on the GBA
-- ✅ After setup, everything runs directly from the EZ-Flash
+- You do need a computer for the initial setup.
+- NES and SMS are software emulated.
+- You cannot add raw `.nes` or `.sms` files directly on the GBA.
+- After setup, everything runs directly from the EZ-Flash.

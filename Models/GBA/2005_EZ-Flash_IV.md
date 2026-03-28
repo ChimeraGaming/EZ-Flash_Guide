@@ -20,9 +20,9 @@ The **EZ-Flash IV** is a popular and long-supported GBA flash cartridge that int
 ## Limitations
 
 - Requires patching all ROMs via EZClient before copying to SD  
-- No RTC (Real-Time Clock) – Games like Pokémon Ruby/Sapphire will run but won’t track time-based events  
-- Save files not automatically written to SD — must use soft reset or power down to store SRAM to file  
-- No NOR flash — games are loaded into PSRAM every time  
+- No RTC (Real-Time Clock) - Games like Pokémon Ruby/Sapphire will run but won't track time-based events  
+- Save files not automatically written to SD - must use soft reset or power down to store SRAM to file  
+- No NOR flash - games are loaded into PSRAM every time  
 - Limited homebrew compatibility  
 
 ---
@@ -38,9 +38,9 @@ The **EZ-Flash IV** is a popular and long-supported GBA flash cartridge that int
 
 ```
 /
-├── ezfla_up.bin         # Firmware update file
-├── GBA/                 # Patched GBA ROMs
-└── SAVES/               # SRAM save files (if separated)
+|-- ezfla_up.bin         # Firmware update file
+|-- GBA/                 # Patched GBA ROMs
+\-- SAVES/               # SRAM save files (if separated)
 ```
 
 ---

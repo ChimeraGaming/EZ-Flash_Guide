@@ -9,7 +9,7 @@ This guide walks you through setup, installation, and optional features like the
 ## What You'll Need
 
 - EZ-Flash Omega or Omega DE  
-- microSD card (4–128 GB recommended)  
+- microSD card (4-128 GB recommended)  
 - microSD card reader (included with most official kits)  
 - Latest kernel firmware from [ezflash.cn](https://www.ezflash.cn)  
 - (Optional) Themes in `.skn` format  
@@ -37,11 +37,11 @@ Omega carts come with:
 
 | Format | Card Size         | Recommended? | Notes |
 |--------|-------------------|--------------|-------|
-| FAT32  | 4–32 GB            | Yes          | Native support; stable |
-| FAT32  | 64–128 GB          | Yes          | Use [GUIFormat](https://guiformat.com/) to format |
-| exFAT  | 64–256 GB+         | Risky        | May cause save errors; not officially supported |
+| FAT32  | 4-32 GB            | Yes          | Native support; stable |
+| FAT32  | 64-128 GB          | Yes          | Use [GUIFormat](https://guiformat.com/) to format |
+| exFAT  | 64-256 GB+         | Risky        | May cause save errors; not officially supported |
 | NTFS   | Any                | No           | Not recognized by EZ-Flash |
-| FAT16  | 2 GB or less       | Limited      | Works, but not recommended |
+| FAT16  | 2 GB or less       | Limited      | Works, but not recommended |
 
 Use FAT32 with 64K allocation unit size for best performance.
 
@@ -56,9 +56,9 @@ Use FAT32 with 64K allocation unit size for best performance.
    - `/CHEAT/` folder (optional)
    - `/IMGS/` thumbnails (optional)
 4. Add your ROMs to folders like:
-   - `/GBA/` – for GBA ROMs
-   - `/GB/` and `/GBC/` – for GB/GBC games
-   - `/NES/` – for NES ROMs
+   - `/GBA/` - for GBA ROMs
+   - `/GB/` and `/GBC/` - for GB/GBC games
+   - `/NES/` - for NES ROMs
 
 ---
 
@@ -77,7 +77,7 @@ Do not power off during kernel updates. Plug into a charger for safety.
 
 1. Create `/THEMES/` on the microSD card.
 2. Drop in any `.skn` file or a theme folder.
-3. On boot, hold SELECT → go to Theme → choose your theme.
+3. On boot, hold SELECT, open Theme, then choose your theme.
 
 You can also rename a `.skn` to `default.skn` to auto-load it.
 
@@ -88,9 +88,9 @@ For custom theme creation, check:
 
 ## Saving Correctly
 
-- Save twice in-game, waiting 3–5 seconds each time
+- Save twice in-game, waiting 3-5 seconds each time
 - Press L+R+A+Select or return to the kernel menu
-- Wait for “Saving... Do not power off”
+- Wait for "Saving... Do not power off"
 - After that, you can safely turn off the console
 - Then remove the SD card and manage `.sav` files on PC
 
@@ -108,4 +108,4 @@ For advanced edits:
 
 That's it! You're ready to start playing, customizing, and exploring what the Omega can do.
 
-Need help? Open a [GitHub Issue](../../issues) and we’ll try to get it resolved.
+Need help? Open a [GitHub Issue](../../issues) and we'll try to get it resolved.

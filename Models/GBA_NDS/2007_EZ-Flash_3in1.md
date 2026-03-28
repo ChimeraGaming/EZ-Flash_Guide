@@ -52,7 +52,7 @@
 
 - Not compatible with DSi or 3DS (no Slot-2)  
 - Battery may degrade over time (saves will be lost if not replaced)  
-- No menu/GUI — controlled entirely through Slot-1 tools  
+- No menu/GUI - controlled entirely through Slot-1 tools  
 
 ---
 

@@ -38,7 +38,7 @@ Place your themes inside the following structure on the microSD card:
 - [GIMP](https://www.gimp.org/) or Photoshop for editing BMPs
 - [IrfanView](https://www.irfanview.com/) for quick conversion
 
-Save images in **16-bit RGB565** format. Most editors default to 24-bit—these will not work.
+Save images in **16-bit RGB565** format. Most editors default to 24-bit-these will not work.
 
 ---
 

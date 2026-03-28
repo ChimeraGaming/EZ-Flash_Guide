@@ -1,5 +1,5 @@
 <details>
-<summary>📂 Click to view all file and folder links</summary>
+<summary>Click to view all file and folder links</summary>
 
 - [EZ-Flash Guide (Repo)](https://github.com/ChimeraGaming/EZ-Flash_Guide)
 - [Docs Folder](https://github.com/ChimeraGaming/EZ-Flash_Guide/tree/main/Docs)

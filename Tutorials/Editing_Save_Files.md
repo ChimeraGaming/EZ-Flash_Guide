@@ -25,7 +25,7 @@ Before removing the SD card from your cart:
 
 1. Save in-game TWICE, waiting at least 5 seconds between saves (especially in Pokémon and large games).
 2. Return to the kernel menu (via in-game addon or soft reset).
-3. Wait for the auto-backup to complete (you’ll see "Saving... Do not turn off").
+3. Wait for the auto-backup to complete (you'll see "Saving... Do not turn off").
 4. Power off the device.
 5. Only then remove the SD card and insert it into your PC.
 
@@ -50,7 +50,7 @@ Skipping this process can result in a blank or overwritten `.sav` file.
 
 You may see this error:
 
-> “The selected save file is invalid. If this save file came from a ROM hack, it is not supported. Otherwise, try saving in-game and re-exporting / re-uploading the save file.”
+> "The selected save file is invalid. If this save file came from a ROM hack, it is not supported. Otherwise, try saving in-game and re-exporting / re-uploading the save file."
 
 ### Fixes:
 
@@ -66,7 +66,7 @@ You may see this error:
 1. Complete the in-game save process (see above).
 2. Insert the SD card into your PC.
 3. Navigate to `/SAVER/` and find your `.sav`.
-4. Make a backup copy — rename it to `Game_backup.sav`.
+4. Make a backup copy - rename it to `Game_backup.sav`.
 5. Open the file in a supported save editor (see tools above).
 6. Make your changes, then save/overwrite the `.sav` file.
 7. Reinsert the SD into your cart and launch the game to verify.
@@ -75,7 +75,7 @@ You may see this error:
 
 ## Common Pitfalls
 
-- Game shows “corrupted save”: The cart expects valid checksum or dual-slot sync. Use PKHeX or in-game saves to revalidate.
+- Game shows "corrupted save": The cart expects valid checksum or dual-slot sync. Use PKHeX or in-game saves to revalidate.
 - Wrong save size: Some games use 64KB while others (Pokémon, Boktai) require 128KB. If unsure, check with GBATA.
 - Save edits not appearing: Make sure you replaced the correct `.sav`, followed the full save flow, and used compatible tools. (Could have been overwritten when loading up EZ-Flash if you skipped this step before)
 

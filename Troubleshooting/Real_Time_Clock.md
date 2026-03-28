@@ -28,7 +28,7 @@ Best for syncing real-time events (e.g., berries, tides, clocks)
 #### 2. Edit Time-Based Events Using PKHeX
 
 - Load the `.sav` file in **PKHeX**
-- While it won’t adjust RTC directly, you can view and fix time-sensitive data (e.g., mystery gift timers, daycare status)
+- While it won't adjust RTC directly, you can view and fix time-sensitive data (e.g., mystery gift timers, daycare status)
 - Save and export the file
 
 Use this when timers are broken but you need a quick workaround

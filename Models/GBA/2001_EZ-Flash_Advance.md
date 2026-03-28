@@ -50,6 +50,6 @@ Despite being outdated, the EZ-Flash Advance represents the early generation of 
 ---
 
 ### Related Guides
-None currently — this is a legacy device. Preservation or hobbyist use only.
+None currently - this is a legacy device. Preservation or hobbyist use only.
 
-> Not recommended for new users — this model is considered obsolete.
+> Not recommended for new users - this model is considered obsolete.

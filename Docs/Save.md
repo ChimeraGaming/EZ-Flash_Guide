@@ -1,6 +1,6 @@
 # EZ-Flash Versions & Save Behavior Comparison
 
-EZ-Flash carts handle **SAV (save file) behavior** differently based on the model, hardware revision, and save type used by the ROM (e.g., 128KB Flash, EEPROM, etc.). This section breaks it all down — pairing similar carts and identifying known quirks with save handling.
+EZ-Flash carts handle **SAV (save file) behavior** differently based on the model, hardware revision, and save type used by the ROM (e.g., 128KB Flash, EEPROM, etc.). This section breaks it all down - pairing similar carts and identifying known quirks with save handling.
 
 ---
 
@@ -11,12 +11,12 @@ Different GBA games use different save technologies:
 | Save Type   | Typical Use                          | Save File Size |
 |-------------|--------------------------------------|----------------|
 | SRAM        | Early/indie GBA games                | 32KB           |
-| EEPROM      | Some Nintendo-published titles       | 512B – 8KB     |
+| EEPROM      | Some Nintendo-published titles       | 512B - 8KB     |
 | Flash 64K   | Many standard GBA games              | 64KB           |
 | Flash 128K  | Pokémon, Boktai, Golden Sun, etc.    | 128KB          |
 | FRAM        | Used only in newer flashcarts (e.g., Omega DE) | Varies |
 
-**Note:** Flash 128K is the most complex and important to know — Pokémon uses two save slots inside that space (primary + backup), which can cause issues if not handled properly.
+**Note:** Flash 128K is the most complex and important to know - Pokémon uses two save slots inside that space (primary + backup), which can cause issues if not handled properly.
 
 ---
 
@@ -25,12 +25,12 @@ Different GBA games use different save technologies:
 | Format Type | SD Card Size        | Notes                                                                 |
 |-------------|---------------------|-----------------------------------------------------------------------|
 | FAT32       | Up to 32GB          | Native support in Windows. Most stable format for EZ-Flash carts.     |
-| FAT32       | 64GB – 256GB+       | Requires tools like GUIFormat. Use 64K allocation size for best results. |
-| exFAT       | 64GB – 1TB          | May boot but prone to save/load errors. Not officially supported.     |
+| FAT32       | 64GB - 256GB+       | Requires tools like GUIFormat. Use 64K allocation size for best results. |
+| exFAT       | 64GB - 1TB          | May boot but prone to save/load errors. Not officially supported.     |
 | NTFS        | Any size            | Not recognized by EZ-Flash firmware. Do not use.                      |
 | FAT16       | 2GB or less         | Very old format. Can be used, but not recommended. Limited capacity.  |
 
-Use your OS’s formatting tool or [SD Card Formatter](https://www.sdcard.org/downloads/formatter/).
+Use your OS's formatting tool or [SD Card Formatter](https://www.sdcard.org/downloads/formatter/).
 
 ---
 
@@ -42,7 +42,7 @@ Use your OS’s formatting tool or [SD Card Formatter](https://www.sdcard.org/do
 - No microSD; requires external software.
 
 ### EZ-Flash IV / Reform
-- PSRAM → SD flow.
+- PSRAM to SD flow.
 - Save is not committed to SD until reboot or soft reset.
 - If powered off after saving, progress may be lost.
 - Struggles with some 128K save games without patches.
@@ -71,7 +71,7 @@ Use your OS’s formatting tool or [SD Card Formatter](https://www.sdcard.org/do
 ## Other Models
 
 - **EZ-Flash 3in1**: No automatic backup; requires manual save dumping via DS tools.
-- **EZ-Flash Junior**: SRAM → SD only on reboot/menu return. Powering off too quickly can lose data.
+- **EZ-Flash Junior**: SRAM only writes to SD on reboot or menu return. Powering off too quickly can lose data.
 
 ---
 
@@ -83,7 +83,7 @@ If a save file becomes corrupted, unreadable, or accidentally deleted (e.g., due
   - Might be stored in FRAM (Omega DE),
   - Or was last committed to the SD card (Omega, IV, Reform, Junior).
 
-If your save wasn’t recently committed (via menu, soft reset, or reboot), it may be hours or even days old.
+If your save wasn't recently committed (via menu, soft reset, or reboot), it may be hours or even days old.
 
 ### Common Triggers for Lost Progress
 
@@ -113,7 +113,7 @@ If your save wasn’t recently committed (via menu, soft reset, or reboot), it m
 
 ## Directory Structure Affects Save Detection
 
-EZ-Flash devices — especially the Omega and Omega DE — expect ROMs to be stored in shallow, consistent folder paths. If ROMs are buried too deep, save files may not be detected, or the cart may fail to load the game entirely.
+EZ-Flash devices - especially the Omega and Omega DE - expect ROMs to be stored in shallow, consistent folder paths. If ROMs are buried too deep, save files may not be detected, or the cart may fail to load the game entirely.
 
 ### Problem Example
 
@@ -141,6 +141,6 @@ or
 - Ensures that `.sav` files are placed correctly inside `/SAVER/` or backed up properly by the firmware.
 - Compatible with all themes and save types.
 
-The deeper the file, the more likely save detection fails. Some themes or kernels may handle deep folders better, but to guarantee compatibility — keep your ROMs no deeper than 1–2 folders down from root.
+The deeper the file, the more likely save detection fails. Some themes or kernels may handle deep folders better, but to guarantee compatibility - keep your ROMs no deeper than 1-2 folders down from root.
 
 Refer to the [Directory Structure Guide](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Docs/Directory_Structure.md) for visual examples and best practices.

@@ -22,11 +22,11 @@ The EZ-Flash Junior is a flash cartridge designed for Game Boy and Game Boy Colo
 
 ```plaintext
 / (root)
-├── EZFLASHJR.BIN         # Kernel file (must be in root for updates)
-├── GBC_ROM.gbc
-├── GB_ROM.gb
-└── SAVE/
-    └── GBC_ROM.sav        # Optional: auto-created on save
+|-- EZFLASHJR.BIN         # Kernel file (must be in root for updates)
+|-- GBC_ROM.gbc
+|-- GB_ROM.gb
+\-- SAVE/
+    \-- GBC_ROM.sav        # Optional: auto-created on save
 ```
 
 ---
@@ -44,7 +44,7 @@ The EZ-Flash Junior is a flash cartridge designed for Game Boy and Game Boy Colo
 
 - No save states  
 - No native support for homebrew with custom save types  
-- RTC doesn’t work until it’s set in the settings screen  
+- RTC doesn't work until it's set in the settings screen  
 - Save loss if user powers off mid-game without returning to menu
 - Doesn't sort files alphabetically (See Troubleshooting bellow).
 

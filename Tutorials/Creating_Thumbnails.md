@@ -33,15 +33,15 @@ The **Game ID** is what the EZ-Flash kernel uses to match thumbnails. For offici
 Use [GBATA](https://www.romhacking.net/utilities/601/) or [RHEA](https://www.romhacking.net/utilities/542/) to find the **Game Code** (4-letter serial) from your ROM.
 
 Example:
-- FireRed v1.0 → `BPRE`
-- Metroid Fusion → `AMTE`
+- FireRed v1.0 uses `BPRE`
+- Metroid Fusion uses `AMTE`
 
 ### ROM Hacks: Custom Game IDs with RHEA
 
 Use [RHEA](https://github.com/sterophonick/rhea) to assign a custom Game Code:
 
 > RHEA Folder Bug Warning  
-> If multiple `.gba` files are in the same folder, RHEA may rename all of them to match the first ROM’s Game ID.  
+> If multiple `.gba` files are in the same folder, RHEA may rename all of them to match the first ROM's Game ID.  
 > To avoid this:
 > - Place each `.gba` file in its own folder before opening with RHEA  
 >   - Suggested: `/Thumbnails/Needs Formatting/Game Name/GameName.gba`  
@@ -53,10 +53,10 @@ Use [RHEA](https://github.com/sterophonick/rhea) to assign a custom Game Code:
 
 ## Recommended Tools
 
-- [EZ Omega Thumbmaker](https://gbatemp.net/threads/creating-your-own-thumbnails-for-the-ez-flash-omega-firmware.510210/) – Auto-format images  
-- [Paint.NET](https://www.getpaint.net/) or [GIMP](https://www.gimp.org/) – Manual BMP editing  
-- [RHEA](https://www.romhacking.net/utilities/542/) – View and edit ROM Game IDs  
-- [GBATA](https://www.romhacking.net/utilities/601/) – Legacy tool to inspect ROMs
+- [EZ Omega Thumbmaker](https://gbatemp.net/threads/creating-your-own-thumbnails-for-the-ez-flash-omega-firmware.510210/) - Auto-format images  
+- [Paint.NET](https://www.getpaint.net/) or [GIMP](https://www.gimp.org/) - Manual BMP editing  
+- [RHEA](https://www.romhacking.net/utilities/542/) - View and edit ROM Game IDs  
+- [GBATA](https://www.romhacking.net/utilities/601/) - Legacy tool to inspect ROMs
 
 ---
 
@@ -64,7 +64,7 @@ Use [RHEA](https://github.com/sterophonick/rhea) to assign a custom Game Code:
 
 1. Open **EZ Omega Thumbmaker**
 2. Load an image (cover art or screenshot)
-3. It resizes to 120×80 BMP automatically
+3. It resizes to 120x80 BMP automatically
 4. Rename the BMP to the Game ID (e.g., `ODYS.bmp`)
 5. Place it in the proper `/IMGS/` subfolder (see next section)
 
@@ -78,9 +78,9 @@ Once your thumbnail is complete:
 - It must be placed into a folder path based on its serial, like so:
 
 ```
-/IMGS/B/P/BPRE.bmp    ← for Game ID BPRE  
-/IMGS/O/D/ODYS.bmp    ← for Game ID ODYS  
-/IMGS/U/N/UNBD.bmp    ← for Game ID UNBD
+/IMGS/B/P/BPRE.bmp    # Game ID BPRE  
+/IMGS/O/D/ODYS.bmp    # Game ID ODYS  
+/IMGS/U/N/UNBD.bmp    # Game ID UNBD
 ```
 
 > If the folders don't exist, create them manually. All folder names and file names must be UPPERCASE.
@@ -122,7 +122,7 @@ Steps in visual order from top to bottom of the window.
 
 ### Thumbnail for Goomba `.gba`
 
-- Must be a **40×56**, **8-bit** uncompressed BMP
+- Must be a **40x56**, **8-bit** uncompressed BMP
 - File name must match the compiled `.gba` file:
   ```
   ZeldaSeasons.gba
@@ -139,9 +139,9 @@ Open the `.gba` file in HxD or GBATA and verify: (Usually Line 11)
 
 | Field         | Offset     | Example (`ZROA`)         |
 |---------------|------------|--------------------------|
-| Game Title    | `0xA0–0xAB`| `ZELDA ROA   ` (12 bytes padded with spaces) |
-| Game Code     | `0xAC–0xAF`| `ZROA`                   |
-| Maker Code    | `0xB0–0xB1`| `01` (Nintendo)          |
+| Game Title    | `0xA0-0xAB`| `ZELDA ROA   ` (12 bytes padded with spaces) |
+| Game Code     | `0xAC-0xAF`| `ZROA`                   |
+| Maker Code    | `0xB0-0xB1`| `01` (Nintendo)          |
 <img width="679" height="309" alt="image" src="https://github.com/user-attachments/assets/0e64c737-afcd-4966-9c16-4a4e3941d242" />
 
 ---

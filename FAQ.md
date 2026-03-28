@@ -10,7 +10,7 @@ This FAQ addresses common questions and concerns about the EZ-Flash Omega Defini
 **A:** No, only if you're playing a ROM hack. Clean games work without patching.
 
 **Q: Why does my ROM not appear on the EZ-Flash menu?**  
-**A:** It may be in the wrong folder, corrupted, or unsupported. Check file extension (`.gba`, `.gb`, `.gbc`, `.nes`) and ensure it’s not nested too deep.
+**A:** It may be in the wrong folder, corrupted, or unsupported. Check file extension (`.gba`, `.gb`, `.gbc`, `.nes`) and ensure it's not nested too deep.
 
 **Q: Is it safe to remove the SD card while the device is on?**  
 **A:** No. Always power off before removing the SD card to avoid save corruption.
@@ -19,14 +19,14 @@ This FAQ addresses common questions and concerns about the EZ-Flash Omega Defini
 
 ### Saving Issues
 
-**Q: My save file keeps disappearing. What’s wrong?**  
+**Q: My save file keeps disappearing. What's wrong?**  
 **A:** You may not be saving properly. Always:
 1. Save in-game twice  
-2. Wait ~5–10 seconds after saving  
+2. Wait ~5-10 seconds after saving  
 3. Return to kernel menu before powering off
 
 **Q: Do I need to press a button to save manually?**  
-**A:** No — saves are committed automatically if you return to the kernel menu (unless you turned off autosave). For extra safety, soft reset (`L+R+Select`) to return instead of powering off (if you loaded with Addon).
+**A:** No - saves are committed automatically if you return to the kernel menu (unless you turned off autosave). For extra safety, soft reset (`L+R+Select`) to return instead of powering off (if you loaded with Addon).
 
 ---
 
@@ -47,11 +47,11 @@ Some themes may also require a custom kernel to be installed to appear correctly
 
 ### Thumbnails
 
-**Q: My thumbnails don’t appear. What’s wrong?**  
+**Q: My thumbnails don't appear. What's wrong?**  
 **A:** Check the following:
 - File is `.bps`
 - Name matches exactly the 4-letter ROM serial (use GBATA or RHEA to check)
-- Correct folder path: `/IMGS/B/P/BPRE.bps` (case-sensitive)
+- Correct folder path: `/IMGS/B/P/BPRE.bmp` (case-sensitive)
 
 **Q: How do I find the correct 4-letter serial?**  
 **A:** Use tools like [GBATA](https://www.romhacking.net/utilities/601/) or [RHEA](https://www.romhacking.net/utilities/542/).
@@ -60,9 +60,9 @@ Some themes may also require a custom kernel to be installed to appear correctly
 
 ### Cheats
 
-**Q: Cheats aren’t working. Help!**  
+**Q: Cheats aren't working. Help!**  
 **A:**
-- Enable cheats from `Start → Options → Cheat Support = On`
+- Enable cheats from `Start / Options / Cheat Support = On`
 - Place `CHEAT.DB` inside `/CHEAT/`
 - ROM name must match the entry in the cheat database
 - Use converted codes if raw GameShark/CodeBreaker don't work
@@ -71,7 +71,7 @@ Some themes may also require a custom kernel to be installed to appear correctly
 
 ### Files & Folders
 
-**Q: What’s the recommended folder structure?**  
+**Q: What's the recommended folder structure?**  
 **A:**
 ```
 /GBA/
