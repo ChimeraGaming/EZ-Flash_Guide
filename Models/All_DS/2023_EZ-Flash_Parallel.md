@@ -1,9 +1,9 @@
 ---
 ---
 ---
- NOT RECOMMENDED 
+# NOT RECOMMENDED 
 
-USE R4 IF YOU DON'T ALREADY OWN THIS (or plan to switch)
+# USE R4 IF YOU DON'T ALREADY OWN THIS (or plan to switch)
 
 ---
 ---
