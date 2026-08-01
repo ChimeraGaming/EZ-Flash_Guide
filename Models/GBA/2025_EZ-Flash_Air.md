@@ -144,4 +144,5 @@ Do not install Omega or Omega Definitive Edition firmware on the Air.
 - Replaced the standard EZ-Flash Omega
 - Designed as a lower-cost alternative to the Omega Definitive Edition
 - May not operate correctly with GBAccelerator speed settings other than 1x
-- Keep a
+- Keep a spare CR1220 battery available
+- Keep regular backups of the microSD card and `SAVER` folder
